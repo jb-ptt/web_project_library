@@ -340,24 +340,33 @@
 .footer {
   box-sizing: border-box;
   background-color: #000000;
+  color: #fff;
+  padding: 80px 60px;
 }
 
 .footer__columns {
-}
-
-.footer__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer__column_content_hours {
+  display: flex;
 }
 
 .footer__column_content_social {
+  display: flex;
 }
 
 .footer__logo {
+  height: 80px;
+  width: 58px;
+  margin-bottom: 100px;
 }
 
 .footer__column-heading {
+  font-size: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -368,15 +377,25 @@
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 10px;
+  margin: auto;
 }
 
 .footer__social-icon {
+  height: 16px;
+  width: 16px;
 }
 
 .footer__copyright {
+  text-align: left;
+  font-size: 14px;
 }
